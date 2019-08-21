@@ -88,13 +88,13 @@ def encrypt(code):
             anws += "}"
 
         if elem2 == " ":
-            anws += "_"
+            anws += "."
 
         if elem2 == ",":
             anws += "`"
 
         if elem2 == ".":
-            anws += "."
+            anws += "_"
 
     print(anws)
 
@@ -187,13 +187,13 @@ def decrypt(code):
         if elem2 == "}":
             anws += "z"
 
-        if elem2 == "_":
+        if elem2 == ".":
             anws += " "
 
         if elem2 == "`":
             anws += ","
 
         if elem2 == ".":
-            anws += "."
+            anws += "_"
 
     print(anws)
