@@ -193,7 +193,7 @@ def decrypt(code):
         if elem2 == "`":
             anws += ","
 
-        if elem2 == ".":
-            anws += "_"
+        if elem2 == "_":
+            anws += "."
 
     print(anws)
